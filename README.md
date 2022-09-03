@@ -14,6 +14,9 @@ Libraries: numpy, pandas, matplotlib, scipy, scikit-learn,imbalanced-learn<br>
 Data Sources: LoanStats_2019Q1.csv
 
 # Results #
+## Credit Risk Resampling Techniques ##
+### Naive Random Oversampling ###
+
 
 
 # Summary #
