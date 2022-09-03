@@ -1,17 +1,17 @@
 # Module-17-Challenge  Credit_Risk_Analysis
 # Overview of Project #
-The purpose of this Project is to analyze the Employee DB so that we can help Pewlett Hackard company for the upcoming "Silver Tsunami". The goal is to anaylze the trend for the mass chunk of employees that are retiring soon. Pewlett Hackard wants detailed information on the number of future retirees from all departments currently working at the company, so that they can plan to hire new staff and prepare a mentorship initiative. The criterion was based on the birth dates ranging from 1952 to 1955 and hired dates from 1985 to 1988.
+The purpose of this Project is to create a supervised machine learning model that could accurately predicts credit risk by using the credit card dataset from LendingClub, a peer-to-peer lending services company.Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.
+Different techniques are used to train and evaluate models with unbalanced classes.
 
 The analysis consisted of the following:
-1. Identify the retiring employees by their title.
-2. Determine the sum of retiring employees grouped by title.
-3. Identify the employees eligible for participation in the mentorship program.
-4. Determine the number of roles-to-fill grouped by title and department.
-5. Determine the number of qualified, retirement-ready employees to mentor. the next generation grouped by title and department.
+1. Resampling Models to Predict Credit Risk.
+2. SMOTEENN Algorithm to Predict Credit Risk.
+3. Ensemble Classifiers to Predict Credit Risk.
 
 # Resources #
-Data Sources: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv <br>
-Software: SQL, PostgreSQL, pgAdmin
+Software: Jupyter Notebook <br>
+Libraries: numpy, pandas, matplotlib, scipy, scikit-learn,imbalanced-learn<br>
+Data Sources: LoanStats_2019Q1.csv
 
 # Results #
 
