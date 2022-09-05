@@ -32,18 +32,18 @@ Data Sources: LoanStats_2019Q1.csv
 ![SMOTE_Oversampling](/Image/SMOTE_Oversampling.png)
 
 ### Undersampling ###
-- Balanced Accuracy: 0.65%
+- Balanced Accuracy: 0.51.6%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 68%
-- Recall Low Risk: 62% <br>
+- Recall High Risk: 60%
+- Recall Low Risk: 43% <br>
 
 ![Undersampling](/Image/Undersampling.png)
-
+## SMOTEENN Algorithm to Predict Credit Risk ##
 ### Combination (Over and Under) Sampling ###
-- Balanced Accuracy: 0.65%
+- Balanced Accuracy: 0.64.6%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 68%
-- Recall Low Risk: 62% <br>
+- Recall High Risk: 71%
+- Recall Low Risk: 58% <br>
 
 ![Combination (Over and Under) Sampling](/Image/Combination_(Over_and_Under)_Sampling.png)
 
