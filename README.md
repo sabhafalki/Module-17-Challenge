@@ -18,8 +18,8 @@ Data Sources: LoanStats_2019Q1.csv
 ### Naive Random Oversampling ###
 - Balanced Accuracy: 0.65%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 68%
-- Recall Low Risk: 62%
+- Recall High Risk: 62%
+- Recall Low Risk: 68%
 
 ### SMOTE Oversampling ###
 - Balanced Accuracy: 0.65%
@@ -40,7 +40,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall Low Risk: 62%
 
 ### Balanced Random Forest Classifier ###
-- Balanced Accuracy: 0.65%
+- Balanced Accuracy: 0.79%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 68%
 - Recall Low Risk: 62%
@@ -50,7 +50,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 68%
 - Recall Low Risk: 62%
--
+
 
 
 
@@ -60,5 +60,5 @@ From our analysis, we were able to conclude that the following:
 2. When working with balanced accuracy, the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model.
 3. The Easy Ensemble AdaBoost Classifier is the best model for the Credit_Risk_Analysis with 93% Accuracy Score.
 4. The most weakest model in predicting the credit card risk is undersampling method which shows the lowest f1 score.
-5. 
+
 
