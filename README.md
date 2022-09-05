@@ -47,7 +47,7 @@ Data Sources: LoanStats_2019Q1.csv
 
 ![Combination (Over and Under) Sampling](/Image/Combination_(Over_and_Under)_Sampling.png)
 
-## Credit Risk Resampling Techniques ##
+## Ensemble Classifiers to Predict Credit Risk ##
 ### Balanced Random Forest Classifier ###
 - Balanced Accuracy: 0.78.7%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
