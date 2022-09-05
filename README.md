@@ -29,7 +29,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall High Risk: 59%
 - Recall Low Risk: 66% <br>
 
-![SMOTE_Oversampling](/Image/SMOTE_Oversamplingg.png)
+![SMOTE_Oversampling](/Image/SMOTE_Oversampling.png)
 
 ### Undersampling ###
 - Balanced Accuracy: 0.65%
@@ -37,7 +37,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall High Risk: 68%
 - Recall Low Risk: 62% <br>
 
-![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
+![Undersampling](/Image/Undersampling.png)
 
 ### Combination (Over and Under) Sampling ###
 - Balanced Accuracy: 0.65%
@@ -45,7 +45,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall High Risk: 68%
 - Recall Low Risk: 62% <br>
 
-![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
+![Combination (Over and Under) Sampling](/Image/Combination_(Over_and_Under)_Sampling.png)
 
 ## Credit Risk Resampling Techniques ##
 ### Balanced Random Forest Classifier ###
@@ -54,7 +54,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall High Risk: 67%
 - Recall Low Risk: 91% <br>
 
-![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
+![Naive Random Oversampling](/Image/Balanced_Random_Forest_Classifier.png)
 
 ### Easy Ensemble AdaBoost Classifier ###
 - Balanced Accuracy: 0.92.5%
@@ -62,7 +62,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall High Risk: 91%
 - Recall Low Risk: 94% <br>
 
-![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
+![Easy_Ensemble_AdaBoost_Classifier](/Image/Easy_Ensemble_AdaBoost_Classifierg.png)
 
 # Summary #
 From our analysis, we were able to conclude that the following:
