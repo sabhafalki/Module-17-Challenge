@@ -16,12 +16,49 @@ Data Sources: LoanStats_2019Q1.csv
 # Results #
 ## Credit Risk Resampling Techniques ##
 ### Naive Random Oversampling ###
+- Balanced Accuracy: 0.65%
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall High Risk: 68%
+- Recall Low Risk: 62%
+
+### SMOTE Oversampling ###
+- Balanced Accuracy: 0.65%
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall High Risk: 68%
+- Recall Low Risk: 62%
+- 
+### Undersampling ###
+- Balanced Accuracy: 0.65%
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall High Risk: 68%
+- Recall Low Risk: 62%
+
+### Combination (Over and Under) Sampling ###
+- Balanced Accuracy: 0.65%
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall High Risk: 68%
+- Recall Low Risk: 62%
+
+### Balanced Random Forest Classifier ###
+- Balanced Accuracy: 0.65%
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall High Risk: 68%
+- Recall Low Risk: 62%
+
+### Easy Ensemble AdaBoost Classifier ###
+- Balanced Accuracy: 0.65%
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall High Risk: 68%
+- Recall Low Risk: 62%
+-
 
 
 
 # Summary #
 From our analysis, we were able to conclude that the following:
-1. After analyzing the number of retiring employees by their titles, we were able to conclude that more than 60% of their employees are getting ready for retirement. The count of employees expected to retire is 90,398.
-2. We were also able to conclude that the senior staff also had senior designations, which made sense.
-3. We also realized that the highest number of Employees leaving were Senior Engineers and the Senior Staff. 
-4. There appears to be a high numebr of employees retiring, hence the organization needs to backfill. 
+1. This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected.
+2. When working with balanced accuracy, the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model.
+3. The Easy Ensemble AdaBoost Classifier is the best model for the Credit_Risk_Analysis with 93% Accuracy Score.
+4. The most weakest model in predicting the credit card risk is undersampling method which shows the lowest f1 score.
+5. 
+
