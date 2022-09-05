@@ -62,7 +62,7 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall High Risk: 91%
 - Recall Low Risk: 94% <br>
 
-![Easy_Ensemble_AdaBoost_Classifier](/Image/Easy_Ensemble_AdaBoost_Classifierg.png)
+![Easy_Ensemble_AdaBoost_Classifier](/Image/Easy_Ensemble_AdaBoost_Classifier.png)
 
 # Summary #
 From our analysis, we were able to conclude that the following:
