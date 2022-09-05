@@ -19,40 +19,50 @@ Data Sources: LoanStats_2019Q1.csv
 - Balanced Accuracy: 0.65%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 62%
-- Recall Low Risk: 68%
+- Recall Low Risk: 68% <br>
+
+![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
 
 ### SMOTE Oversampling ###
 - Balanced Accuracy: 0.62%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 59%
-- Recall Low Risk: 66%
+- Recall Low Risk: 66% <br>
+
+![SMOTE_Oversampling](/Image/SMOTE_Oversamplingg.png)
 
 ### Undersampling ###
 - Balanced Accuracy: 0.65%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 68%
-- Recall Low Risk: 62%
+- Recall Low Risk: 62% <br>
+
+![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
 
 ### Combination (Over and Under) Sampling ###
 - Balanced Accuracy: 0.65%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 68%
-- Recall Low Risk: 62%
+- Recall Low Risk: 62% <br>
+
+![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
+
 ## Credit Risk Resampling Techniques ##
 ### Balanced Random Forest Classifier ###
 - Balanced Accuracy: 0.78.7%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 67%
-- Recall Low Risk: 91%
+- Recall Low Risk: 91% <br>
+
+![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
 
 ### Easy Ensemble AdaBoost Classifier ###
 - Balanced Accuracy: 0.92.5%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 91%
-- Recall Low Risk: 94%
+- Recall Low Risk: 94% <br>
 
-
-
+![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
 
 # Summary #
 From our analysis, we were able to conclude that the following:
