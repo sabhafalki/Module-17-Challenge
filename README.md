@@ -22,11 +22,11 @@ Data Sources: LoanStats_2019Q1.csv
 - Recall Low Risk: 68%
 
 ### SMOTE Oversampling ###
-- Balanced Accuracy: 0.65%
+- Balanced Accuracy: 0.62%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 68%
-- Recall Low Risk: 62%
-- 
+- Recall High Risk: 59%
+- Recall Low Risk: 66%
+
 ### Undersampling ###
 - Balanced Accuracy: 0.65%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
@@ -38,18 +38,18 @@ Data Sources: LoanStats_2019Q1.csv
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall High Risk: 68%
 - Recall Low Risk: 62%
-
+## Credit Risk Resampling Techniques ##
 ### Balanced Random Forest Classifier ###
-- Balanced Accuracy: 0.79%
+- Balanced Accuracy: 0.78.7%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 68%
-- Recall Low Risk: 62%
+- Recall High Risk: 67%
+- Recall Low Risk: 91%
 
 ### Easy Ensemble AdaBoost Classifier ###
-- Balanced Accuracy: 0.65%
+- Balanced Accuracy: 0.92.5%
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 68%
-- Recall Low Risk: 62%
+- Recall High Risk: 91%
+- Recall Low Risk: 94%
 
 
 
