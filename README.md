@@ -1,7 +1,6 @@
 # Module-17-Challenge  Credit_Risk_Analysis
 # Overview of Project #
-The purpose of this Project is to create a supervised machine learning model that could accurately predict credit risk by using the credit card dataset from LendingClub, a peer-to-peer lending services company.Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.
-Different techniques are used to train and evaluate models with unbalanced classes.
+The purpose of this Project is to create a supervised machine learning model that could accurately predict credit risk by using the credit card dataset from LendingClub, a peer-to-peer lending services company.Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.Different techniques are used to train and evaluate models with unbalanced classes.
 
 The analysis consisted of the following:
 1. Resampling Models to Predict Credit Risk.
